@@ -1,0 +1,107 @@
+* {
+    /*margin: 0;*/
+    /*background-color: #0b4c61;*/
+}
+
+/*.box {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    border: 20px solid green;*/
+/*    padding: 40px 30px 10px;*/
+/*    margin: 40px;*/
+/*}*/
+
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: grey;
+    margin: 100px;
+}
+.f {
+    position: fixed;
+    background-color: green;
+    top: 300px;
+    right: -500px;
+}
+.l {
+    position: fixed;
+    background-color: tomato;
+    top: 100px;
+    right: -500px;
+}
+.box {
+    width: 600px;
+    height: 100px;
+}
+.red {
+    position: relative;
+    background-color: coral;
+    right: 0px;
+}
+img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -1830px;
+    right: -350px;
+}
+
+.green {
+    position: relative;
+    background-color: white;
+    right: 0px;
+}
+
+.blue {
+    position: relative;
+    background-color: green;
+    right: 0px;
+}
+.spacer {
+    height: 300vh;
+}
+.pink {
+    background-color: darkred;
+    position: sticky;
+    top: 10px;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: cornflowerblue;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 5px red, 5px 5px blue;
+    font-family: sans-serif;
+}
+p {
+    text-align: center;
+}
+.click {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: yellow;
+}
+li{
+    display: inline;
+    font-family: Verdana;
+    color: #dddddd;
+    padding: 20px;
+}
+li:hover {
+    color: navajowhite;
+    cursor:pointer;
+}
+
+ul{
+    list-style: none;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
